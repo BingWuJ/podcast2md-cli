@@ -4,8 +4,8 @@
 
 ## 中文
 
-播客单集链接 → 可阅读文字稿的命令行工具。单文件 `podcast2md.py`，仅 Python 标准库；依赖外部 `yt-dlp`、`ffmpeg` 及安装好的 CapsWriter-Offline。
-安装条件与项目摘要见 [README](README.md)。
+输入一个播客单集链接，得到按节目已有章节整理的完整文字稿，而不是摘要。本工具在 Windows 上调用已安装的 CapsWriter-Offline 完成语音转文字。
+首次使用请先看 [README](README.md)；本文列出全部参数、输出文件和错误码。
 
 ### 用法
 
@@ -79,8 +79,8 @@ logs/                  yt-dlp、客户端日志
 
 ## English
 
-A command-line tool that turns a podcast episode URL into a readable transcript. Implemented in a single file, `podcast2md.py`, using only the Python standard library; it requires external `yt-dlp`, `ffmpeg`, and an installed copy of CapsWriter-Offline.
-See the [README](README.md) for installation prerequisites and the project summary.
+Give the tool a podcast episode link and get a full transcript organized by the show's existing chapters—not a summary. It runs on Windows and uses an installed copy of CapsWriter-Offline for speech recognition.
+Start with the [README](README.md) if you are new to the tool. This guide lists all options, output files, and exit codes.
 
 ### Usage
 
